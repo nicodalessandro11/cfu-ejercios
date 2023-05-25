@@ -1,0 +1,17 @@
+nav {
+  background-color: lightgrey;
+  display: flex;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.articles {
+    display: flex;
+}
+
+.article-secondary{
+    margin: 0px;
+}
