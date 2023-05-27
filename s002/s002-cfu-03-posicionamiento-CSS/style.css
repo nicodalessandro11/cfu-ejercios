@@ -1,11 +1,17 @@
-nav {
+header {
   background-color: lightgrey;
   display: flex;
+  
 }
 
-nav ul {
+ul {
   display: flex;
   list-style-type: none;
+  justify-items: end;
+}
+
+nav ul li {
+  margin: 10px;
 }
 
 .articles {
