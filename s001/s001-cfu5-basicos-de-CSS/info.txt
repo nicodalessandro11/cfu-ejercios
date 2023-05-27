@@ -1,0 +1,38 @@
+True or False: CSS is a programming language. Why?
+False. CSS (Cascading Style Sheets) is not a programming language. It is a style sheet language used to describe the presentation and visual styling of a document written in HTML or XML. While CSS allows you to define styles and layout for web pages, it lacks the logical operations and capabilities of programming languages.
+
+What is CSS used for?
+CSS is used for styling and formatting web documents. It enables you to control the appearance of HTML elements by specifying fonts, colors, layouts, and other visual properties. CSS allows you to create visually appealing and consistent designs across multiple web pages or an entire website.
+
+How can you add styles to your HTML project?
+There are multiple ways to add styles to your HTML project using CSS:
+
+    Inline Styles: You can use the style attribute within HTML elements to define inline styles. For example:
+
+    html
+
+<h1 style="color: blue;">Hello, World!</h1>
+
+Internal Stylesheet: You can include a <style> block within the <head> section of your HTML document to define styles for multiple elements. For example:
+
+html
+
+<head>
+  <style>
+    h1 {
+      color: blue;
+    }
+  </style>
+</head>
+
+External Stylesheet: You can create a separate CSS file with a .css extension and link it to your HTML document using the <link> tag within the <head> section. For example:
+
+html
+
+    <head>
+      <link rel="stylesheet" href="styles.css">
+    </head>
+
+    In this case, the CSS rules will be defined in the styles.css file.
+
+By using any of these methods, you can apply styles to your HTML elements and control their visual presentation.
