@@ -1,0 +1,59 @@
+/* body {
+  background-color: #00d1ae;
+}
+
+/* ---------- Exercise1 ----------- */
+
+/* #exercise1 .menu {
+  width: 400px;
+  height: 50px;
+  background-color: green;
+}
+
+#exercise1 .content {
+  width: 400px;
+  height: 200px;
+  background-color: red;
+}
+
+#exercise1 .important {
+    font-weight: bold;
+  } */ 
+
+/* ---------- Exercise2 ----------- */
+
+/* #exercise2 #cover-box {
+    background-color: black;
+    color: pink;
+    width: 100px;
+    height: 50px;
+  }
+  
+  * {
+    font-family: monospace;
+  }
+   */
+
+/* ---------- Exercise3 ----------- */
+
+.list li:nth-child(even){
+    background-color: yellow;
+}
+
+.list li:nth-child(odd){
+    background-color: green;
+}
+
+.list li:first-child{
+    background-color: red;
+}
+
+.list li:last-child{
+    background-color: blue;
+}
+
+.button button:hover{
+    background-color: purple;
+}
+
+
