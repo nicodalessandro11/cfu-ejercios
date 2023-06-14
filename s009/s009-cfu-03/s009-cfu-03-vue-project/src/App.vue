@@ -1,5 +1,16 @@
-<script setup></script >
+<script setup>
+import { ref } from "vue";
 
-<template></template>
+const isEnabled = ref(true);
+</script >
 
-<style scoped></style>
+<template>
+    <button :disabled="isActive">Try Me</button>
+</template>
+
+<style scoped>
+button {
+    background-color: rgb(60, 60, 60);
+    color: white;
+}
+</style>
