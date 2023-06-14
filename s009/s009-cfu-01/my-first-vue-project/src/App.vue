@@ -1,5 +1,9 @@
-<script setup></script >
+<script setup>
+import ShortBiography from "./components/ShortBiography.vue";
+</script>
 
-<template></template>
+<template>
+  <ShortBiography />
+</template>
 
 <style scoped></style>

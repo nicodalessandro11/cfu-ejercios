@@ -1,5 +1,15 @@
-<script setup></script >
+<script setup>
+import CompositionApi from './components/CompositionApi.vue'
+import OptionsApi from './components/OptionsApi.vue'
+</script>
 
-<template></template>
+<template>
+  <div>
+    <CompositionApi/>
+    <OptionsApi/>
+  </div>
+</template>
 
-<style scoped></style>
+<style scoped>
+
+</style>
