@@ -6,12 +6,17 @@ import Card from './components/Card.vue';
 <template>
     <Card>
         <template #title>
-            <p>Title</p>
+            <h1>This is a h1 title</h1>
+            <h2>This is h2</h2>
         </template>
         <template #description>
-            <p>Description</p>
+            <p>Here some description</p>
         </template>
     </Card>
 </template>
 
-<style scoped></style>
+<style scoped>
+Card{
+    background-color: red;
+}
+</style>

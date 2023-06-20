@@ -1,11 +1,10 @@
 <script setup>
-import EventVue from "./components/Event.vue";
 </script>
 
-<template>
-  <EventVue />
-  
-</template>
 
+<template>
+    <button @click="$emit('closeFunction')">Close Modal</button>
+</template>
+  
 <style scoped>
 </style>
